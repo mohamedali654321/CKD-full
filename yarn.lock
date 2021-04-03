@@ -1185,6 +1185,11 @@
   dependencies:
     vary "^1.1.2"
 
+"@mrabdrhm/ckeditor5-build-classic-arabic@^0.0.0-0":
+  version "0.0.0-0"
+  resolved "https://registry.yarnpkg.com/@mrabdrhm/ckeditor5-build-classic-arabic/-/ckeditor5-build-classic-arabic-0.0.0-0.tgz#4dba943e883d1592c5d0dba26ae0312f23639881"
+  integrity sha512-hTiDYaimRTPiMHSCyPHMYmZV+7Rqh1HSqfY8Dw7+/P6eSeKgCZgZfk6xmxWPsy+1eRtuCRdKW/JD8JnF3f/aog==
+
 "@purest/config@^1.0.0":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@purest/config/-/config-1.0.1.tgz#d7dc6a0629032fd98d4ae5f59bec26ba1465c8e0"
@@ -2564,6 +2569,11 @@ ckeditor5-build-full@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ckeditor5-build-full/-/ckeditor5-build-full-2.0.0.tgz#d3b87cdd604ed79ff6a33d75d9dd6c35ae28f921"
   integrity sha512-jPoNx6PtCYS4CaIHPXy9uXs1VX/jNdZaesHDfLVYneJp6prHBkC0b6hyUazONiF2Cc9GVxMHZzxXpv3WuLiNIA==
+
+ckeditor5-build-strapi-wysiwyg@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/ckeditor5-build-strapi-wysiwyg/-/ckeditor5-build-strapi-wysiwyg-1.8.0.tgz#206451f8af8c01e88bbe10e337fc91e26e880ad4"
+  integrity sha512-19FYexWicMLvECmsF7YrQzM8khbuOjkAnbvgj46DWabZswP0wKPRVHunUF+CemEhnB8BXFVjNfoKkhSIzDvJYw==
 
 class-utils@^0.3.5:
   version "0.3.6"
