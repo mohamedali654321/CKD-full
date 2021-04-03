@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 import { CKEditor } from '@ckeditor/ckeditor5-react';
 //import  CKEditor from '@ckeditor/ckeditor5-react'
 //import ClassicEditor from 'ckeditor5-build-strapi-wysiwyg';
-import ClassicEditor from '@mrabdrhm/ckeditor5-build-classic-arabic'
+import ClassicEditor from 'ckeditor5-build-full'
+import 'ckeditor5-build-strapi-wysiwyg/build/translations/ar'
+
 
 import styled from 'styled-components';
 
@@ -17,22 +19,6 @@ const Wrapper = styled.div`
 `;
 
 
-// FullEditor
-//     .create( document.querySelector( '#editor' ), {
-//         language: {
-//             // The UI will be English.
-//             ui: 'ar',
-
-//             // But the content will be edited in Arabic.
-//             content: 'ar'
-//         }
-//     } )
-//     .then( editor => {
-//         window.editor = editor;
-//     } )
-//     .catch( err => {
-//         console.error( err.stack );
-//     } );
 
 
 
@@ -42,13 +28,15 @@ const Editor = ({ onChange, name, value }) => {
 
 
 
-
-
   return (
     <Wrapper>
       <CKEditor
         editor={ClassicEditor}
-        // config={configuration}
+         config={
+           {
+            language: 'ar'
+           }
+         }
         data={value}
         onChange={(event, editor) => {
           const data = editor.getData();
